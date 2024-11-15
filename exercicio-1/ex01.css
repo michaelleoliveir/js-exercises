@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center; /*alinha horizontalmente*/
+    align-items: center; /*alinha verticalmente*/
+    height: 100vh;
+    flex-direction: column;
+}
+
+#header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#selection {
+    padding-top: 20px;
+}
