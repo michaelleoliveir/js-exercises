@@ -7,6 +7,7 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 ## Roadmap
 
 - Exercício 01 - Explorando elementos DOM
+- Exercício 02 - Verificador de idade
 
 
 ## 🛠 Habilidades
