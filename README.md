@@ -8,6 +8,7 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 
 - Exercício 01 - Explorando elementos DOM
 - Exercício 02 - Verificador de idade
+- Exercício 03 - Tabuada
 
 
 ## 🛠 Habilidades
