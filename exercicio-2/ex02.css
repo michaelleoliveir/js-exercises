@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    border-color:#aaa;
+    box-sizing: border-box;
+    width:100%;  
+}
+
+.ri-calculator-line {
+    font-size: 50px;
+}
+
+main {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    padding-top: 7px;
+}
+
+small {
+    align-self: flex-start;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 13px;
+}
+
+input {
+    width: 200px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:hover{
+    border: 2px solid rgba(12, 139, 12, 0.849)
+}
+
+#calcular {
+    width: 60px;
+    height: 34px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(111, 111, 111);
+    color: white;
+}
+
+p {
+    padding-top: 25px;
+}

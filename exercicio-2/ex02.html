@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex02.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Idade</title>
+</head>
+<body>
+    <header>
+        <i class="ri-calculator-line"></i>
+        <h1>Calculadora de Idade</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Em que ano você nasceu?</h2>
+        <div class="input-group">
+            <input type="number" placeholder="Insira aqui" id="ano"><button onclick="calcular()" id="calcular">Calcular</button>
+        </div>
+        <small id="mensagem-erro" style="color: red; display: none;"></small>
+
+        <p id="resultado">
+            <!--será exibido o resultado-->
+        </p>
+        <button style="display: none; margin-top: 6px; padding: 5px; border-radius: 5px;" id="recalcular" onclick="limpar()">Recalcular</button>
+    </main>
+
+    <script src="ex02.js"></script>
+</body>
+</html>
