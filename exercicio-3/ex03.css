@@ -24,18 +24,27 @@ header {
 
 #num {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 5px;
     padding: 10px;
 }
 
-input {
+input#numero {
     border-radius: 10px;
     text-align: center;
     padding: 4px;
+    border-color: black !important;
 }
 
 main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inicio, #tabuada {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,4 +63,35 @@ button {
 button:hover {
     background-color: #9a96e8;
     color: beige;
+}
+
+li {
+    list-style-type: none;;
+}
+
+#resultado {
+    padding-bottom: 5px;
+}
+
+#resultadoTabuada {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#botaoVoltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+}
+
+small#aviso {
+    color: #cf6060;
+    font-size: 13px;
+    display: none; 
 }

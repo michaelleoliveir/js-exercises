@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ex03.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>Tabuada</title>
 </head>
 <body>
-    <header>
-        <h1>Tabuada</h1>
-    </header>
 
     <main>
-        <div id="num">
-            Insira a tabuada a ser calculada <input type="number" id="numero">
+        <!--tela inicial-->
+        <div id="inicio">
+            <h1>Tabuada</h1>
+            <div id="num">
+                Insira a tabuada a ser calculada <input type="number" id="numero">
+                <small id="aviso">Insira um número válido</small>
+            </div>
+            <button onclick="calcular()">
+                Calcular
+            </button>
         </div>
 
-        <button>
-            Calcular
-        </button>
+        <!--tela da tabuada-->
+        <div id="tabuada" style="display: none">
+            <div id="resultadoTabuada">
+                <button onclick="voltar()" id="botaoVoltar">
+                    <i class="ri-arrow-left-line" style="align-items: center;"></i>
+                </button>
+                <h2 id="resultado">Resultado</h2>
+            </div>
+            <ul id="lista"></ul>
+        </div>
     </main>
     
     <script src="ex03.js"></script>
