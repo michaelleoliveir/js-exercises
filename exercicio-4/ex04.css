@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Doto:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Carme", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color: #daf75b;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    font-weight: 400;
+}
+
+.moedas {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.moedas:hover {
+    filter: grayscale(5);
+    opacity: 0.4;
+}
