@@ -15,10 +15,22 @@
     </header>
 
     <main>
-        <div>
-            <img src="https://www.infomoney.com.br/wp-content/uploads/2024/10/2024-10-16T174352Z_1_LYNXMPEK9F0Q0_RTROPTP_4_MICROSOFT-BLACKROCK-AI.jpg?w=768&quality=70&strip=all" alt="" class="moedas" data-nome="Dólar">
-            <img src="https://media.istockphoto.com/id/121306620/pt/foto/o-sistema-monet%C3%A1rio-euro.jpg?s=612x612&w=0&k=20&c=IzmW_wCCtLgm5p-0Rh88mbUccjzvOnDej_hlH9Ih5oU=" alt="" class="moedas" data-nome="Euro">
-            <img src="https://portal.euqueroinvestir.com/wp-content/uploads/2022/09/bank-g9c0a4dab5_1280.jpg" alt="" class="moedas" data-nome="Libra">
+        <div id="moeda-container">
+            <div class="moedas" data-nome="Dólar">
+                <img src="https://www.infomoney.com.br/wp-content/uploads/2024/10/2024-10-16T174352Z_1_LYNXMPEK9F0Q0_RTROPTP_4_MICROSOFT-BLACKROCK-AI.jpg?w=768&quality=70&strip=all" alt="" class="img">
+            </div>
+            <div class="moedas" data-nome="Euro">
+                <img src="https://media.istockphoto.com/id/121306620/pt/foto/o-sistema-monet%C3%A1rio-euro.jpg?s=612x612&w=0&k=20&c=IzmW_wCCtLgm5p-0Rh88mbUccjzvOnDej_hlH9Ih5oU=" alt="" class="img">
+            </div>
+            <div class="moedas" data-nome="Libra">
+                <img src="https://portal.euqueroinvestir.com/wp-content/uploads/2022/09/bank-g9c0a4dab5_1280.jpg" alt="" class="img">
+                <p id="tooltip"></p>
+            </div>
+        </div>
+
+        <div id="inserir">
+            <input type="num" id="dinheiro" autocomplete="off">
+            <small>Pressione ENTER para enviar</small>
         </div>
     </main>
 

@@ -28,7 +28,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
 }
 
 p {
@@ -40,9 +40,53 @@ p {
     width: 150px;
     border-radius: 50%;
     padding: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
-.moedas:hover {
+.moedas img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.moedas span {
+    position: absolute;
+    top: 50%; /*colocar o span centralizado*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+}
+
+#moeda-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moedas img:hover {
     filter: grayscale(5);
     opacity: 0.4;
+}
+
+#inserir {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dinheiro {
+    height: 2rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+small {
+    color: #daf75bc6;
+    padding-top: 5px;
 }
