@@ -72,6 +72,10 @@ p {
     opacity: 0.4;
 }
 
+.moedas.selecionado img {
+    filter: grayscale(100%) brightness(0.55);
+}
+
 #inserir {
     padding-top: 40px;
     display: flex;
@@ -89,4 +93,10 @@ p {
 small {
     color: #daf75bc6;
     padding-top: 5px;
+    font-size: 11px;
+}
+
+#resultado {
+    padding-top: 20px;
+    color: #daf75b;
 }
