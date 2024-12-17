@@ -10,10 +10,10 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 02 - Verificador de idade
 - Exercício 03 - Tabuada
 - Exercício 04 - Conversor de moeda
-- [SOON] Exercício 5 - Preenchimento de campos (CEP)
-- [SOON] Exercício 6 - API Futebol
-- [SOON] Exercício 7 - Cronômetro
-- [SOON] Exercício 8 - To-Do List
+- Exercício 05 - Preenchimento de campos (CEP)
+- [SOON] Exercício 06 - API Futebol
+- [SOON] Exercício 07 - Cronômetro
+- [SOON] Exercício 08 - To-Do List
 
 
 ## 🛠 Habilidades
