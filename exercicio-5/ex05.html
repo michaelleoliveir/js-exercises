@@ -9,11 +9,12 @@
 </head>
 <body>
     <main>
+        <!--formulário-->
         <div>
             <form>
                 <div class="form-group">
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" placeholder="Insira seu CEP" class="form-control" oninput="formatar(this)" autocomplete="off" maxlength="9">
+                    <input type="number" id="cep" placeholder="Insira seu CEP" class="form-control" autocomplete="off" maxlength="8">
                 </div>
                 <div class="form-group">
                     <label for="rua">Rua</label>
@@ -37,8 +38,14 @@
                 </div>
             </form>
         </div>
+
+        <!--botões-->
+        <div>
+            <button class="btn btn-primary" id="pesquisar">Pesquisa</button>
+            <button class="btn btn-danger" id="limpar">Limpar</button>
+        </div>
     </main>
 
-    <script src="ex05.js"></script>
+    <script src="ex05.js" type="module"></script>
 </body>
 </html>
