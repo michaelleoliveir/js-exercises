@@ -9,7 +9,7 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 01 - Explorando elementos DOM
 - Exercício 02 - Verificador de idade
 - Exercício 03 - Tabuada
-- [SOON] Exercício 4 - Conversor de moeda
+- Exercício 4 - Conversor de moeda
 - [SOON] Exercício 5 - Preenchimento de campos (CEP)
 - [SOON] Exercício 6 - API Futebol
 - [SOON] Exercício 7 - Cronômetro
