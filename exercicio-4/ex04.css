@@ -99,4 +99,15 @@ small {
 #resultado {
     padding-top: 20px;
     color: #daf75b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reloadPage{
+    padding-top: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    display: none;
 }

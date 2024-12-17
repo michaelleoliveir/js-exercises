@@ -4,6 +4,7 @@ const moedas = document.getElementsByClassName("moedas")
 const imagens = document.getElementsByClassName("img")
 const numero = document.getElementById("dinheiro")
 const conversaoNum = document.getElementById("conversao")
+const recarregar = document.getElementById("reloadPage")
 
 let moedaSelecionada = "";
 
@@ -45,9 +46,33 @@ numero.addEventListener("keypress", (event) => {
         async function calcularCotacao() {
             try {
                 const cotacoes = await cotacaoBRL();
-                console.log(`Dólar: ${cotacoes.dolar} BRL`);
-                console.log(`Euro: ${cotacoes.euro} BRL`);
-                console.log(`Libra: ${cotacoes.libra} BRL`);
+                let valorDigitado = parseInt(numero.value);
+                let resultado;
+                let simbolo = "";
+
+                if(isNaN(valorDigitado) || valorDigitado <= 0) {
+                    alert("Digite um valor válido para realizar a conversão");
+                    return;
+                }
+
+                if(!moedaSelecionada) {
+                    alert("Selecione um tipo de moeda");
+                    return;
+                }
+                
+                if(moedaSelecionada === "Dólar"){
+                    resultado = valorDigitado / cotacoes.dolar;
+                    simbolo = "USD"
+                } else if (moedaSelecionada === "Euro") {
+                    resultado = valorDigitado / cotacoes.euro;
+                    simbolo = "EUR"
+                } else if(moedaSelecionada === "Libra") {
+                    resultado = valorDigitado / cotacoes.libra;
+                    simbolo = "GBP"
+                }
+
+                conversaoNum.innerText = `${valorDigitado.toFixed(2)} BRL = ${resultado.toFixed(2)} ${simbolo}`;
+                recarregar.style.display = "flex"
             } catch(error) {
                 console.error("Erro: ", error)
             }
@@ -55,5 +80,8 @@ numero.addEventListener("keypress", (event) => {
 
         calcularCotacao();
     }
-})
+});
 
+recarregar.addEventListener("click", () => {
+    location.reload();
+})
