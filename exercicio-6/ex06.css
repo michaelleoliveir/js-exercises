@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=DM+Serif+Text:ital@0;1&family=Doto:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Carme", serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    top: 0px;
+    background-color: #132a13;
+    color: #ecf39e;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #132a13;
+}
+
+#anoSelecionado {
+    margin-top: 7px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.result-section {
+    margin-top: 15px;
+}
+
+#fundo {
+    display: block;
+    background-color: #132a137f;
+    width: 400px;
+    height: 150px;
+}
+
+@media (max-width: 1600px) and (min-width: 1434px){
+    body {
+        position: relative;
+        background-color: transparent;
+        overflow: hidden; 
+    }
+    
+    body::before {
+        content: '';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-image: url(https://site.zuldigital.com.br/blog/wp-content/uploads/2024/11/allianz-parque-estacionamento2-1024x496.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.35;
+        z-index: -1; /* Mantém atrás de todo o conteúdo */
+    }
+}
+
+@media (max-width: 1433px) {
+    body {
+        background-color: #90a955;
+    }
+}
