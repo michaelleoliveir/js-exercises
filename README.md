@@ -11,7 +11,7 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 03 - Tabuada
 - Exercício 04 - Conversor de moeda
 - Exercício 05 - Preenchimento de campos (CEP)
-- [SOON] Exercício 06 - API Futebol
+- Exercício 06 - API Futebol
 - [SOON] Exercício 07 - Cronômetro
 - [SOON] Exercício 08 - To-Do List
 
