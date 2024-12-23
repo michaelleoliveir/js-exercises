@@ -41,15 +41,50 @@ main {
     border-radius: 10px;
 }
 
-.result-section {
+#resultSection {
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
 }
 
 #fundo {
-    display: block;
-    background-color: #132a137f;
-    width: 400px;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    background-color: #244f24b1;
+    width: 490px;
+    height: 190px;
+}
+
+.foto {
+    height: 100px;
+}
+
+.fonteResult {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+#buttons-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#show-teams, #show-score {
+    margin: 15px;
+    padding: 8px;
+    width: 160%;
+    border-radius: 10px;
+    background-color: #132a13e1;
+    color: #c5df88;
 }
 
 @media (max-width: 1600px) and (min-width: 1434px){
