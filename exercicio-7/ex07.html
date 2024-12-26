@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ex07.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>Cronômetro</title>
 </head>
+
 <body>
     <!-- espaço para a header -->
     <header>
@@ -32,16 +34,27 @@
 
         <!-- espaço para os botões -->
         <div id="botoes">
-            <button class="botao" style="background-color: #baffc9;">
+            <button class="botao" id="iniciar" style="background-color: #baffc9;">
                 <i class="ri-play-large-fill"></i>
             </button>
-            <button class="botao" style="background-color: #ffb3ba;">
+            <button class="botao" id="pausar" style="background-color: #ffb3ba;">
                 <i class="ri-pause-large-fill"></i>
             </button>
-            <button class="botao" style="background-color: #ffffba;">
+            <button class="botao" id="reiniciar" style="background-color: #ffffba;">
                 <i class="ri-restart-line"></i>
             </button>
         </div>
+
+        <script src="ex07.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+        <script>
+            function addDarkmodeWidget() {
+                new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+        </script>
     </main>
 </body>
+
 </html>
