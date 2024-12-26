@@ -12,8 +12,9 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 04 - Conversor de moeda
 - Exercício 05 - Preenchimento de campos (CEP)
 - Exercício 06 - API Futebol
-- [SOON] Exercício 07 - Cronômetro
-- [SOON] Exercício 08 - To-Do List
+- Exercício 07 - Cronômetro
+- Exercício 08 - Filtro de pesquisa
+- [SOON] Exercício 09 - To-Do List
 
 
 ## 🛠 Habilidades
