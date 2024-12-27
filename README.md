@@ -13,8 +13,11 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 05 - Preenchimento de campos (CEP)
 - Exercício 06 - API Futebol
 - Exercício 07 - Cronômetro
-- Exercício 08 - Filtro de pesquisa
+- [SOON] Exercício 08 - Filtro de pesquisa
 - [SOON] Exercício 09 - To-Do List
+- [SOON] Exercício 10 - Jogo da forca
+- [SOON] Exercício 11 - Contador de palavra
+- [SOON] Exercício 12 - Quiz interativo
 
 
 ## 🛠 Habilidades
