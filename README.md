@@ -14,7 +14,7 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 06 - API Futebol
 - Exercício 07 - Cronômetro
 - Exercício 08 - Filtro de pesquisa
-- [SOON] Exercício 09 - Contador de palavra
+- Exercício 09 - Contador de palavra
 - [SOON] Exercício 10 - Adivinhador de número
 
 
