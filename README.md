@@ -15,7 +15,8 @@ Repositório criado com o objetivo de fortalecer meus conhecimentos sobre JavaSc
 - Exercício 07 - Cronômetro
 - Exercício 08 - Filtro de pesquisa
 - Exercício 09 - Contador de palavra
-- [SOON] Exercício 10 - Adivinhador de número
+- [SOON] Exercício 10 - Gerador de Quotes
+- [SOON] Exercício 11 - Adivinhador de número
 
 
 ## 🛠 Habilidades
